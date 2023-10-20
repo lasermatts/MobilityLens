@@ -30,4 +30,33 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
 }
+/* Camera Feed Container */
+.camera-feed {
+    width: 100%;
+    max-width: 640px; /* or adjust to your desired width */
+    height: 360px; /* adjust to your desired height */
+    margin: 0 auto;
+    background-color: #e0e0e0; /* gray background to differentiate the section */
+    background-image: url('/static/images/dalle_dummy_image.png'); /* placeholder image */
+    background-size: cover; /* scales the image to cover the container */
+    background-position: center; /* centers the image */
+    border-radius: 5px;
+    position: relative; /* for potential overlays or positioned child elements */
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #007BFF; /* blue color */
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none; /* removes underlines if used with <a> tags */
+    cursor: pointer; /* indicates clickability */
+}
+
+.button:hover {
+    background-color: #0056b3; /* slightly darker blue on hover */
+}
 
