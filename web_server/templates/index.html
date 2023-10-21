@@ -9,6 +9,17 @@
 <body>
     <h1>Welcome to MobilityLens Camera Interface!</h1>
     <p>This is a basic web page to get started.</p>
+    <div class="container">
+        <h1>MobilityLens Camera Interface</h1>
+        
+        <!-- Camera Feed Container -->
+        <div class="camera-feed"></div>
+        
+        <!-- Buttons -->
+        <button id="save-image-btn" class="button">Save Image</button>
+        <button id="pause-stream-btn" class="button">Pause Stream</button>
+    </div>
+    
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
