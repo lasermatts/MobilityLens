@@ -3,7 +3,7 @@ import subprocess
 from datetime import datetime
 
 # Set the default directory to "/camera_module/image_output/"
-DEFAULT_OUTPUT_DIR = '/camera_module/image_output/'
+DEFAULT_OUTPUT_DIR = 'image_output/'
 
 def ensure_dir_exists(dir_path):
     """
