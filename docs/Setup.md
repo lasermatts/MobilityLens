@@ -2,6 +2,7 @@
 TODO
 DEPENDENCIES: 
 `pip install Flask`
+`sudo apt install libcamera-bin`
 
 # Camera Configurations and Parameters
 
